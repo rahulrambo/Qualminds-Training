@@ -1,0 +1,89 @@
+h3{
+    background-color: yellowgreen;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    text-decoration: dotted;
+}
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+
+}
+a:hover{
+    text-decoration:overline;
+    color:brown;
+}
+a:active{
+    color: black;
+} */
+.one:link{
+    color: rgb(198, 27, 27);
+}
+.one:hover{
+    color: black;
+}
+.word1{
+    color: blue;
+}
+.word2 {
+    cursor:auto;
+}
+.word3{
+    cursor: crosshair;
+}
+.word4{
+    cursor:default;
+}
+.wodr5{
+    cursor: e-resize;
+}
+.word6{
+    cursor: help;
+}
+.word7{
+    cursor: move;
+}
+p.word8{
+    cursor: n-resize;
+}
+ul,ol{
+    background-color: blueviolet;
+    padding: 2px 5px 2px 35px;
+}
+ol li{
+    background-color: rgb(207, 202, 210);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    text-align:left;
+}
+ul li{
+    background-color: brown;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 30px;
+}
+#tab{
+    background-color: rgb(219, 214, 223);
+    border-collapse: collapse;
+    width: 100%;
+}
+#tab td, #tab th {
+    border: 2px solid royalblue;
+    padding: 2px 2px;
+}
+#tab tr:nth-child(odd){
+   background-color:rgb(136, 110, 110);
+}
+#tab tr:hover{
+    background-color: rgb(236, 168, 66);
+}
+div.stiky{
+    position:sticky;
+    top: 0%;
+    background-color: crimson;
+    border: 2px solid black;
+}
