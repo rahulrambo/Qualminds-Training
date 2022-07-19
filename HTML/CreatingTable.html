@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Creation</title>
+</head>
+<style>
+    table{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    th{
+        border:1px solid black;
+        border-style: dashed;
+        /* background-color:aqua; */
+    }
+    td{
+        /* background-color:rgb(221, 238, 238) ; */
+        text-align: center;
+        border: 1px solid black;
+        border-style:dashed;
+
+    }
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
+    tr:nth-child(even){
+        background-color: rgb(16, 234, 234);
+    }
+    .div{
+        border-style:groove;
+        width: 375px;
+    }
+    tr:hover{
+        background-color: rgb(220, 220, 150);
+    }
+    li:hover{
+        background-color: rgb(208, 131, 16);
+    }
+    li {
+        /* list-style-type: none; */
+        float: left;
+    }
+    ul {
+        list-style-type: none;
+        margin:5px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #201e1e;
+    }
+    li a:hover{
+        background-color: rgb(206, 178, 178);
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <table>
+        <caption style="font-weight:bold;">Employee Details</caption>
+        <tr>
+            <th colspan="2">Employee</th>
+            <th colspan="2">Contact Detail</th>
+        </tr>
+        <tr>
+            <th style="width:auto;">Employee Id</th>
+            <th>Employee Name</th>
+            <th>Mobile Number</th>
+            <th style="width:30px;">Salary</th>
+        </tr>
+        <tr>
+            <td>20QD01</td>
+            <td>Rambo</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>20QD02</td>
+            <td>Rahul</td>
+            <td>7563880949</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>20QD03</td>
+            <td>Dharmendra</td>
+            <td>7033333826</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>20QD04</td>
+            <td>Sohan</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>20QD05</td>
+            <td>Radha</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+    </table><br>
+    <div class="div"><table>
+        <caption style="font-weight:bold;">Student Details</caption>
+        <tr>
+            <th colspan="2" style="padding:5px;">Student</th>
+            <th colspan="2">Contact Detail</th>
+        </tr>
+        <tr>
+            <th style="padding:2px;">Student Roll No</th>
+            <th>Student Name</th>
+            <th>Mobile Number</th>
+            <th style="width:30px;">Salary</th>
+        </tr>
+        <tr>
+            <td style="padding:5px;">20QD01</td>
+            <td>Rambo</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td style="padding:3px;">20QD02</td>
+            <td>Rahul</td>
+            <td>7563880949</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td style="padding:5px;">20QD03</td>
+            <td>Dharmendra</td>
+            <td>7033333826</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td style="padding:3px;">20QD04</td>
+            <td>Sohan</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td style="padding:5px;">20QD05</td>
+            <td>Radha</td>
+            <td>9110136325</td>
+            <td>25000</td>
+        </tr>
+    </table></div><br><br>
+    <!-- <ul style="list-style-type:lower-alpha;">
+        <li>IAS</li>
+        <li>IPS</li>
+        <li>Engineer</li>
+        <ul style="list-style-type:circle;">
+            <li>Software Engineer</li>
+            <li>Mechanical Engineer</li>
+        </ul>
+        <li>SDO</li>
+    </ul><br> -->
+    <ul>
+        <li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul><br><br>
+    <h2>Now for different Pattern</h2>
+    <dl>
+        <dt>
+            Developer
+        </dt>
+        <dd>-Frontened</dd>
+        <dd>-Backened</dd>
+    </dl>
+    <dl>
+        <dt>
+            Support
+        </dt>
+        <dd>-Technical</dd>
+        <dd>-Non-Technical</dd>
+    </dl>
+</body>
+</html>

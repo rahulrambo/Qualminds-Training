@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Creation of a Form</h2>
+    <h3>Welcome to the form:</h3>
+    <form>
+        <label for="fname">FirstName</label><br>
+        <input type="text" id="fname" name="fname" value="Rambo"><br><br>
+        <label for="lname">LastName</label><br>
+        <input type="text" id="lname" name="lname" value="Rahul"><br><br>
+        <input type="submit" value="Submit">
+
+    </form><br>
+    
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p><br><br>
+<h2>For Radio button:</h2>
+<form>
+    <input type="radio" id="html" name="Fav_lang" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="Fav_lang" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javaScript" name="Fav_lang" value="JavaScript">
+    <label for="javaScript">JavaScript</label>
+
+</form>
+<br><br>
+<h2>For CheckBox:</h2>
+<form>
+    <input type="checkbox" id="html" name="Fav_lang" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="Fav_lang" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="javaScript" name="Fav_lang" value="JavaScript">
+    <label for="javaSCript">JavaScript</label>
+</form><br><br>
+<h2>For Selecting Particular Data:</h2>
+<form>
+    <label for="cars">Select one Car</label>
+    <select name="cars" id="cars">
+        <option value="volve">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        <option value="honda">Honda</option>
+
+    </select><br>
+    <input type="submit">
+</form><br><br>
+
+<h2>For Sending particular message:</h2>
+<form action="">
+    <textarea name="message" id="message" cols="10" rows="10">The employees were on strike</textarea><br><br>
+    <input type="submit">
+</form><br><br>
+<h2>For button type:</h2>
+<button onclick="alert('Hello World!')">Click me!</button><br><br>
+<form action="">
+    <fieldset>
+        <legend>Personalia</legend>
+        <label for="fname">FirstName</label><br>
+        <input type="text" id="fname" name="fname" value="Rambo"><br><br>
+        <label for="lname">LastName</label><br>
+        <input type="text" id="lname" name="lname" value="Rahul"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+</body>
+</html>

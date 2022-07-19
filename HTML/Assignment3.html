@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" id="fname" name="firstname" required><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender">
+        <label for="gender">TransGender</label><br><br>
+        <label for="dept">Skills</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">Java</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">C#</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">HTML/CSS</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">JavaScript</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">SQL</label>
+        <input type="checkbox" id="dept" name="dept">
+        <label for="dept">Angular</label><br><br>
+
+        <label for="date">Date of Birth</label>
+        <input type="date"><br><br>
+
+        <label for="salary">Salary(in thousand)</label>
+        <input type="number" id="salary" name="salary" min="15000" max="70000" step="1000" value="30000"><br>
+
+        <label for="vol">Communication</label>
+        <input type="range" id="vol" name="vol" min="10" max="100" value="40"><br>
+
+
+
+        <fieldset>
+            <legend>Address</legend>
+            Permanent Address<address>
+                <label for="vill">Village</label>
+                <input type="text" id="vill" name="vill"><br>
+                <label for="vill">District</label>
+                <input type="text" id="vill" name="vill"><br>
+                <label for="vill">State</label>
+                <select name="state" id="state" style="margin-left:20px;">
+                    <option value="state">Bihar</option>
+                    <option value="state">Telangana</option>
+                    <option value="state">Jharkhand</option>
+                    <option value="state">West Bengal</option>
+                    <option value="state">Utter Pradesh</option>
+                    <option value="state">Maharastra</option>
+                    <option value="state">Tamilnadu</option>
+                </select><br>
+                <label for="country">Country</label>
+                <input list="country" placeholder="India">
+                 <datalist id="country">
+                    <option value="India"></option>
+                    <option value="Japan"></option>
+                    <option value="America"></option>
+                    <option value="Pakistan"></option>
+                    <option value="Brazil"></option>
+                    <option value="Sri Lanka"></option>
+                    <option value="China"></option>
+                    <option value="Nepal"></option>
+                </datalist>
+            </address>
+            <!-- Permanent Address
+            <address>
+                <label for="vill">Village</label>
+                <input type="text" id="vill" name="vill"><br>
+                <label for="vill">District</label>
+                <input type="text" id="vill" name="vill"><br>
+                <label for="vill">State</label>
+                <datalist>
+                    <option value="state">Bihar</option>
+
+                </datalist>
+
+            </address> -->
+            <textarea name="message" id="message" cols="10" rows="5">Good morning!
+                How are you?
+            </textarea>
+        </fieldset><br>
+
+        <!-- <input type="image" src="/SoftCopy.jpg" alt="No image" width="300px" height="300px"> -->
+
+        <label for="email">Email Id</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass"><br><br>
+
+        <label for="myfile">Upload your resume</label>
+        <input type="file" id="myfile" name="myfile" required><br><br>
+        <button>Add</button> 
+        <input type="reset" value="reset">  
+        <input type="button" onclick="alert('Check before Submittion')" value="Click me"><br><br>
+        <input type="submit" value="submit">
+
+        <label for="file">Downloading progress:</label>
+        <progress id="file" value="32" max="100"> 32% </progress>
+
+    </form>
+</body>
+</html>
