@@ -1,0 +1,84 @@
+.pooo{
+    font-weight: bold;
+    font-size:35px;
+}
+.pooo span {
+    background-color: red;
+}
+.nav{
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.highlight1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav li{
+    margin: 0px 150px;
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+.pooo1{
+    background-color: yellow;
+    display: none;
+    padding: 15px;
+}
+div{
+    cursor:pointer;
+}
+div:hover .pooo1 {
+    display: block;
+}
+.over1{
+    position:relative;
+    display: block;
+}
+.imge{
+    opacity:0.8;
+    position: absolute;
+}
+.highlight2{
+    display: block;
+    margin-top: 270px;
+    padding: 10px;
+    width: 160px;
+    background-color: red;
+}
+a.highlight2:hover {
+    color: red;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+a.highlight2:visited{
+    color: yellow;
+}
+a.highlight2:active{
+    color: brown;
+}
+.btn1{
+    background-color: chocolate;
+    margin-left: 35px;
+    height: 40px;
+    width: 80px;
+}
+.btn2{
+    background-color: rgb(130, 113, 102);
+    margin-left: 325px;
+    height: 40px;
+    width: 80px;
+}
+.btn3{
+    background-color: rgb(230, 205, 188);
+    margin-left: 325px;
+    height: 40px;
+    width: 80px;
+}
+.btn4{
+    background-color: rgb(139, 74, 27);
+    margin-left: 325px;
+    height: 40px;
+    width: 80px;
+}

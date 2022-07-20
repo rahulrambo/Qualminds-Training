@@ -83,7 +83,36 @@ ul li{
 }
 div.stiky{
     position:sticky;
+    width:100%;
     top: 0%;
     background-color: crimson;
     border: 2px solid black;
+}
+.lorem{
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+    /* overflow: hidden; */
+    overflow:scroll;
+    /* overflow-x: scroll; */
+    /* overflow-wrap: break-word; */
+}
+div{
+    float:left;
+    padding: 15px;
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: yellow;
+}
+.div3{
+    background-color: blueviolet;
+}
+.img{
+    position: absolute;
+    z-index: index -1;
+    top: 0px;
+    left: 0px;
 }
