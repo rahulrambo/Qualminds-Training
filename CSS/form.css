@@ -1,0 +1,83 @@
+.head{
+    width: 940px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 5px;
+}
+.frm{
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 800px;
+    width: 950px;
+    background-color: rgb(230, 230, 226);
+}
+body{
+    height: 950px;
+    background-color: rgb(195, 172, 217);
+}
+#name{
+    margin: 50px;
+}
+#fname{
+    width: 150px;
+}
+#lname{
+    margin: 40px;
+    width: 150px;
+}
+.com{
+    margin-left: 50px;
+    margin-right: 26px;
+}
+#company{
+    width: 350px;
+}
+#company:focus {
+    width: 80%;
+}
+.eml{
+    margin-left: 50px;
+    margin-right: 49px;
+}
+#email{
+    width: 350px;
+}
+.phn{
+    margin-left: 50px;
+    margin-right: 47px; 
+}
+#phone{
+    width: 80px;
+}
+#phone:focus {
+    background-color: rgb(159, 124, 191);
+}
+#code{
+    margin-left: 25px;
+    width: 233px;
+}
+.subject{
+    margin-left: 50px;
+    margin-right: 38px;
+}
+#paper{
+    
+    width: 358px;
+}
+p{
+    margin-left: 50px;
+}
+#rad1{
+    margin-left: 50px;
+}
+#rad2{
+    margin-left: 50px;
+}
+#submit{
+    padding: 4px;
+    border: none;
+    width: 90px;
+    background-color: goldenrod;
+    margin-left: 50px;
+}

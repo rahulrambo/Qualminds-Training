@@ -5,21 +5,39 @@
 .pooo span {
     background-color: red;
 }
+.head{
+    font-size: 40px;
+    text-align: center;
+}
 .nav{
+    position: sticky;
+    top: 0%;
     background-color: yellowgreen;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
+}
+.nav a:hover{
+    background-color: yellow;
 }
 .highlight1{
     font-size: 30px;
     font-weight: bold;
 }
 .nav li{
+    /* background-color: rgb(3, 3, 3); */
+    text-decoration: none;
     margin: 0px 150px;
     display:inline-block;
     font-size: 20px;
     padding: 10px;
+}
+.search{
+    margin-left: 1650px;
+}
+.nav li a{
+    text-decoration: none;
+    height: 20px;
 }
 .pooo1{
     background-color: yellow;
@@ -84,6 +102,13 @@ a.highlight2:active{
     margin-left: 325px;
     height: 40px;
     width: 80px;
+}
+.img{
+    width: 35px;
+}
+.hello{
+    display:inline-block;
+    padding-bottom: 20px;
 }
 .hello::first-letter {
     color: blueviolet;

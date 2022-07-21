@@ -1,0 +1,39 @@
+h1{
+    position:relative;
+}
+image{
+    position:absolute;
+}
+.img{
+    position: relative;
+    top: 220px;
+    display: block;
+}
+.drop{
+    position: absolute;
+    display: inline-block;
+}
+.dropdown{
+    background-color:yellowgreen;
+    padding: 5px 6px;
+    display: none;
+    box-shadow: 0px 8px 8px 0px;
+
+}
+.drop:hover .dropdown {
+    display:block;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.wbox1{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+}
+.wbox2{
+    width: 20px;
+    height: 20px;
+    background-color:white;
+}

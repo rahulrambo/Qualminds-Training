@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+        <div class="frm"><form>
+        <h2 class="head">EVENT REGISTRATION FORM</h2>
+        <label for="name" id="name">Name</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+        <label for="fename"></label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+        <label for="company" class="com">Company</label>
+        <input type="text" name="company" id="company" placeholder="XYZ pvt. ltd."><br><br>
+        <label for="email" class="eml">Email</label>
+        <input type="text" name="email" id="email" placeholder="xyz@gmail.com"><br><br>
+        <label for="phone" class="phn">Phone</label>
+        <input type="number" name="phone" id="phone" placeholder="+91">
+        <input type="number" name="code" id="code" placeholder="91XXXXXX25"><br><br>
+        <label for="subject" class="subject">Subject</label>
+        <select name="paper" id="paper">
+            <option value="selected" disabled selected>Choose Option</option>
+            <option value="developer">Developer</option>
+            <option value="developer">Frontened</option>
+            <option value="developer">Backened</option>
+            <option value="developer">Full-Stack</option>
+        </select><br><br>
+        <p>Are you an existing customer?</p>
+        <input type="radio" id="rad1" name="rad">Yes <input type="radio" id="rad2" name="rad">No <br><br><br>
+        <input type="submit" value="Register" id="submit">
+        </form></div>
+</body>
+</html>
