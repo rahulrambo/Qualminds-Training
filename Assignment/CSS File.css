@@ -1,0 +1,295 @@
+.nav {
+    background-color: rgb(254, 254, 251); 
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+  .nav li {
+    margin-left: 40px;
+    color: rgb(119, 110, 100);
+    display: inline-block;
+    font-size: 12px;
+    padding: 20px;
+  }
+  .top1{
+    margin-right: 35px;
+  }
+  .img{
+    position: absolute;
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 9px;
+  }
+  .parent{
+    display: flex;
+  }
+  .child2{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(234, 71, 76);
+  }
+  h6{
+    color: rgb(235, 228, 228);
+    margin-left: 25px;
+  }
+  h3{
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+  }
+  .exam{
+    width: 250px;
+    color: rgb(241, 244, 246);
+    margin-left: 25px;
+  }
+  button{
+    margin-left: 65px;
+    margin-top: 90px;
+    width: 140px;
+    height: 32px;
+  }
+  .para{
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 60px;
+  }
+  h2{
+    margin-left: 50px;
+    color: rgb(88, 63, 33);
+  }
+  .row1{
+    margin-left: 50px;
+    width: 95%;
+    height: 62px;
+    display: flex;
+    background-color: rgb(234, 88, 91);
+  }
+  .filter-col1{
+    width:17%;
+    background-color: rgb(234, 88, 91);
+  }
+  .sort-col{
+    display: flex;
+    width: 90%;
+    background-color: white;
+    justify-content: space-between;
+  }
+  .sort{
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  #search{
+    margin-top: 6px;
+    margin-left: 20px;
+    height: 30px;
+  }
+  .search-container{
+    position: absolute;
+    width: 200px; 
+    height: 25px;
+    padding: 5px;
+  }
+  .search-icon{
+    position: absolute;
+    top: 650px;
+    right: 190px;
+    color: gray;
+  }
+  #searchicon{
+    position: absolute;
+    transform: translate(-90% ,77%);
+    border: none;
+  }
+  #searchicon input{
+    border: none;
+  }
+  .gg-search{
+    box-sizing: border-box;
+  }
+  .filter-col{
+    color:aliceblue;
+    display: flex;
+    margin-left: 50px;
+    width: 92%;
+    background-color: rgb(234, 88, 91);
+    justify-content: space-between;
+  }
+  .filter-col2{
+    width: 15%;
+  }
+  .filter-col3{
+    width: 25%;
+  }
+  .filter-col4,.nav3{
+    margin-top: 25px;
+    width: 25%;
+  }
+  .filter-col5,.nav4{
+    margin-top: 25px;
+    width: 25%;
+  }
+  .food1{
+    margin-left: 25px;
+  }
+  .food2{
+    margin-left: 42px;
+  }
+  .nav1 input{
+    margin-left: 0px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    -webkit-appearance: none;
+  }
+  .nav1 input:checked{
+      background-image: url('https://www.iconpacks.net/icons/2/free-check-mark-icon-3279-thumb.png');
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+  }
+  .nav1 label{
+    vertical-align:top;
+    display: inline-block;
+    margin-top:4px; 
+  }
+  ul.nav1{
+    padding-left: 20px;
+  }
+  ul.nav2{
+    padding-left: 562px;
+    margin-right: 98px;
+  }
+  .nav2{
+    margin-top: 35px;
+    margin-left: 140px;
+  }
+  .nav2 label{
+    vertical-align:top;
+    display: inline-block;
+    margin-top:4px;
+  }
+  .nav2 input{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    -webkit-appearance: none;
+  }
+  .nav2 input:checked{
+    background-image: url('https://www.iconpacks.net/icons/2/free-check-mark-icon-3279-thumb.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.v1{
+  border-left: 1px solid aliceblue;
+  height: 140px;
+  position: absolute;
+  left: 50%;
+  margin-left: -405px;
+  top: 710px;
+}
+.h1{
+  margin-left: 183px;
+  width: 22px;
+  margin-top: -25px;
+}
+  .exam1{
+    color: aliceblue;
+    margin-left: 23px;
+    width: 300px;
+  }
+  .maindish1{
+    width: 96%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dish{
+    border: 1px solid rgb(246, 246, 246);
+    margin: 25px;
+    width: 250px;
+    height: 300px;
+    background-color:rgb(248, 248, 248) ;
+  }
+  .dish span:nth-child(2){
+    float: right;
+  }
+  .img1{
+    width: 250px;
+    height: 230px;
+  }
+  .head3{
+    color: rgb(118, 122, 125);
+    margin-top: 2px;
+    margin-left: 50px;
+  }
+  .box,.boxes{
+    display: flex;
+    /* width: 100%; */
+    margin-left: 50px;
+  }
+  .box1{
+    color: rgb(233, 245, 255);
+    width: 25%;
+    padding: 5px;
+  }
+  .btn10{
+    margin-top: 22px;
+    color: aliceblue;
+    background-color: rgb(234,71,76);
+    border: 1px solid rgb(245, 227, 227);
+  }
+  .remove1{
+    color: rgb(245,227,227);
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .box{
+    margin-top: 30px;
+    height: 70px;
+  }
+  hr{
+    margin-left: 50px;
+    width: 1135px;
+  }
+  .boxes{
+    height: 20px;
+    margin-top: 22px;
+  }
+  .last1{
+    padding-top:15px;
+    margin-left: 50px;
+    color: white;
+  }
+  .last2{
+    color: wheat;
+    margin-left: 50px;
+  }
+  .input1{
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .lastcontent{
+    height: 410px;
+    background-color: rgb(234,71,76);
+  }
+  .btn{
+        margin-left: 530px;
+  }
+  .heading1{
+    size: 50px;
+    font-weight: bold;
+    color: rgb(149, 149, 139);
+  }
+  .end1{
+    width: 20%;
+    padding: 25px;
+    margin-left: 20px
+  }
+  .footer{
+    margin-top: 30px;
+    display: flex;
+  }
+  

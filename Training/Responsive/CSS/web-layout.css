@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F9F6F2;
+}
+h1{
+    text-align: center;
+    /* font-size: 35px; */
+    font-size: 9vmin;
+    padding: 30px 15px 15px 15px;
+}
+.img img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.col{
+    width: 85%;
+    border: none;
+    margin-left: 7%;
+    background-color:white;
+    border-radius: 20px;
+    
+}
+/* .col2,.col3{
+    margin-top: 25px;
+} */
+.inner-col{
+    padding: 30px 5px 20px 5px;
+    width: 90%;
+    margin-left: 5%;
+    /* height: 80vh; */
+}
+.head-text h2{
+    font-size: 25px;
+    /* font-size: 4vmin; */
+    padding-top: 15px;
+    color: rgb(165, 130, 130);
+}
+.head-text p{
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.foot{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d2 a{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #BFA98B;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.foot .d2 span a:hover{
+    background-color: blueviolet;
+}
+.foot .price{
+    color: rgb(165, 130, 130);
+    font-size: 28px;
+    font-weight: bold;
+}
+.col{
+    margin-top: 25px;
+}
+.text{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.line{
+    width: 60px;
+    height: 1px;
+    color: black;
+    background-color: black;
+    float:right;
+    margin: 0px 27% 0px 0px;
+}
+footer{
+    background-color: black;
+    height: 110px;
+    /* display: flex;
+    justify-content: center;  
+    align-items: center; */
+}
+footer p{
+    color: whitesmoke;
+    padding: 55px 0px 0px 25px;
+}
+footer p span{
+    text-decoration:underline; color:rgb(191, 152, 227);
+}
+@media (min-width:800px){
+    section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .col{
+        width: 45%;
+        margin-left: 3%;
+    }
+    .head-text h2{
+        font-size: 4vmin;
+    }
+    .head-text p{
+        font-size: 2.6vmin;
+    }
+    section .text{
+        width: 100%;
+        font-size: 3.5vmin;
+    }
+    .line{
+        margin-right: 35%;
+        width:11%;
+    }
+    footer p{
+        text-align: center;
+        font-size: 3vmin;
+    }
+}
+@media (min-width:1200px){
+    section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .col{
+        width: 28%;
+        margin-left: 4%;
+    }
+    .line{
+        width: 5.5%;
+        margin-right: 42.5%;
+    }
+}

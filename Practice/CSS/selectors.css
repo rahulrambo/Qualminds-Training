@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.my-class p{
+    color: red;
+}
+#my-id p{
+    color: blue;
+}
+.my-class1, #my-id1{
+    color: green;
+}
+
+/* This is for the term anywhere in the data */
+/* a[href*='google']{
+    color: yellow;
+} */
+
+/* This is for the term starting with the targetted element */
+/* a[href^='google']{
+    color: yellow;
+} */
+
+/* This is for the term which ends with the targetted element */
+a[href$='com/']{
+    color: yellow;
+}
+
+/* This is for the term which having the same as the applied term */
+a[href='www.google.com']{
+    color: rgb(200, 127, 163);
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.my-element{
+    color: rgb(143, 227, 33);
+}
+.my-element::before{
+    content: 'Rambo->';
+}

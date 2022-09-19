@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    background-color: aliceblue;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    background-color: yellow;
+}
+li a:hover{
+    background-color: rgb(11, 71, 124);
+    color: white;
+    text-decoration: none;
+}
+.box {
+    padding: 30px;
+    border: 2px solid red;
+    /* outline: solid rgb(11, 10, 10) medium; */
+    outline: 4px solid black;
+    max-width: 500px; /*It will dominate on width*/
+    /* width: 100vw; */
+    /* text-transform: capitalize; */
+    font-variant: small-caps;
+    /* width: fit-content; */
+}

@@ -1,0 +1,69 @@
+fieldset{
+    border: 2PX dotted black;
+}
+.mainpart{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+.part1{
+    width: 30%;
+}
+.part1 input{
+    width: 90%;
+    height: 25px;
+}
+.part2{
+    width: 70%;
+}
+.part2 input{
+    width: 85%;
+    height: 25px;
+}
+.state{
+    width: 52.9%;
+}
+.country select{
+    width: 86.5%;
+    height: 30px;
+}
+.state-city{
+    display: flex;
+    width: 100%;
+}
+.city{
+    width: 40%;
+}
+.city input{
+    width: 90%;
+    height: 25px;
+}
+.final{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+.part3{
+    width: 50%;
+}
+.qty input{
+    width: 53.5%;
+    height: 25px;
+}
+.item input{
+    margin-left: 40px;
+    width: 30%;
+    height: 25px;
+}
+.part4{
+    width: 50%;
+}
+textarea{
+    width: 80%;
+}
+button{
+    background-color: rgb(128, 29, 222);
+    color: white;
+    border: none;
+    height: 30px;
+}

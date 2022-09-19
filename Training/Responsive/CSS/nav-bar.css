@@ -1,0 +1,79 @@
+.nav-bar-horizon{
+    width: 100%;
+    background-color: rgb(98, 151, 198);
+    overflow: auto;
+    display: flex;
+    /* flex-direction: column; */
+}
+.nav-bar-horizon a{
+    display: block;
+    width: 20%;
+    padding: 15px 0px;
+    /* float: left; */
+    font-size: 25px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.nav-bar-horizon a:hover{
+    background-color: rgb(238, 235, 231);
+}
+.nav-bar-vertical{
+    width: 90px;
+    background-color: rgb(100, 92, 92);
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar-vertical a{
+    /* display:block; */
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 32px;
+    color: whitesmoke;
+}
+.nav-bar-vertical a:hover{
+    background-color: rgb(41, 30, 50);
+}
+.new-nav{
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+}
+.a1{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+}
+.a1 a{
+    padding: 20px;
+    font-size: 25px;
+}
+.a1 a:hover{
+    background-color: cadetblue;
+}
+.btn{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 113, 74, 0.766);
+}
+.btn a{
+    font-size: 25px;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.navbar a{
+    width: 25%;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+.active{
+    background-color: rgb(95, 70, 38);
+}
+.navbar a:hover{
+    background-color: rgb(237, 10, 86);
+}

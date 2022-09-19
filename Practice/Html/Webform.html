@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Webform.css">
+</head>
+<body>
+    <h1>Desktop Design</h1>
+    <form action="">
+        <fieldset>
+        <div class="mainpart">
+            <div class="part1">
+            <p style="border-bottom:1px solid black; width:97%;">CONTACT INFORMATION</p>
+            <p><input type="text" placeholder="First name*" required></p>
+            <p><input type="text"  placeholder="Last name*" required></p>
+            <p><input type="email" placeholder="Email*" required></p>
+            <p><input type="number" placeholder="Phone"></p>
+            </div>   
+            <div class="part2">
+                <div class="address">
+                <p style="border-bottom:1px solid black; width: 88%;">ADDRESS</p>
+                <input type="text" placeholder="Street line 1*">
+                </div>
+            <div class="state-city">
+                <div class="city">
+                    <p><input type="text" placeholder="City*" required></p>
+                    <p><input type="text" placeholder="Postal/Zip code*" required></p>
+                </div>
+                <div class="state">
+                    <p><input type="text" placeholder="State/Province*" required></p>
+                    <div class="country">
+                        <select required>
+                        <option value="">--Please Select--</option>
+                        <option value="">India</option>
+                        <option value="">China</option>
+                        <option value="">Russia</option>
+                        <option value="">USA</option>
+                        <option value="">UK</option>
+                        </select>
+                        <p>Country*</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="final">
+            <div class="part3">
+                <p style="border-bottom:1px solid black; width: 97%;">PRODUCTS</p>
+                <p><span class="qty"><input type="text" placeholder="Item #1 name" required></span>
+                <span class="item"><input type="text" placeholder="Item #1 quantity"></span></p>
+                <p><span class="qty"><input type="text" placeholder="Item #2 name" required></span>
+                    <span class="item"><input type="text" placeholder="Item #2 quantity"></span></p>
+                <p><span class="qty"><input type="text" placeholder="Item #3 name" required></span>
+                    <span class="item"><input type="text" placeholder="Item #3 quantity"></span></p>
+            </div>
+            <div class="part4">
+                <p style="border-bottom:1px solid black; width: 83%;">NOTES</p>
+                <div class="area">
+                    <p>Additional comments or questions</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <button>REQUEST QUOTE</button>
+        </fieldset>
+    </form>
+</body>
+</html>

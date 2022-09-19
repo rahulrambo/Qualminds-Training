@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background: url('https://p.w3layouts.com/demos_new/template_demo/24-03-2021/dogs-care-liberty-demo_Free/75048660/web/assets/images/banner1.jpg');
+            width: 100%;
+            background-size: cover;
+            height: 100vh;
+        }
+        .heading{
+            display: flex;
+            width: 25%;
+        }
+        .heading i{
+            padding: 19% 0% 0% 13%;
+        }
+        .heading h1{
+            font-size: 32px;
+            padding: 19% 0% 0% 15px;
+            color: white;
+        }
+        nav{
+            /* display: inline; */
+            display: flex;
+            width: 100%;
+        }
+        .list{
+            width: 90%;
+            position: relative;
+        }
+        .list ul{
+            margin: 7% 0px 0px 25%;
+        }
+        li{
+            display: inline;
+            list-style-type: none;
+        }
+        li a{
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .btn-logo{
+            width: 30%;
+            margin:2.5% 8% 0px 10px;
+        }
+        input{
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            width: 170px;
+        }
+        .btn-logo button{
+            border-radius: 35px;
+            border: none;
+            padding: 6px;
+            background-color:white;
+        }
+        .content{
+            padding: 12% 10% 0% 8%;
+            width: 55%;
+        }
+        .content h1{
+            font-size: 50px;
+            line-height: 65px;
+            font-weight: 300;
+            color: white;
+        }
+        .content p{
+            font-size: 20px;
+            padding: 25px 0px;
+        }
+        .content span{
+            padding-top: 2%;
+        }
+        .btn1 button{
+            padding: 16px;
+            width: 170px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn2 button{
+            padding: 16px;
+            width: 120px;
+            background-color:transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            /* color: white; */
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="heading">
+                <i class="fa fa-paw" style="font-size:30px;color:white;"></i>
+                <h1>Dogs Care</h1>
+            </div>   
+            <div class="list">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PAGES</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="btn-logo">
+                <form action="">
+                    <button>
+                    <input type="search" placeholder="Enter Keyword">
+                    <i class="fa fa-search" style="font-size:18px; color:red;margin-right:10px;"></i>
+                    </button>
+                    <i class="fa fa-moon-o" style="font-size:30px;color:white;padding:5px 2px 0px 13px;"></i>
+                </form>
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Providing Special Care For Your Pets!</h1>
+            <p>We offer special services for special pets!</p>
+            <span class="btn1"><button>View our Services</button></span>
+            <span class="btn2"><button>Hire Us</button></span>
+        </div>
+    </section>
+</body>
+</html>

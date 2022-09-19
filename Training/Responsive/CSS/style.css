@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    color: rgb(24, 23, 23);
+    text-align: center;
+    padding: 10px 0px;
+}
+body{
+    margin: 0px;
+}
+header h1{
+    margin: 0px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav ul li a{
+    display: inline-block;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: brown;
+    color: white;
+}
+.product-box{
+    border: 1px solid black;
+    margin: 10px 0px;
+}
+.product-img img{
+    max-width: 100%;
+}
+.product-details{
+    padding: 10px;
+}
+
+/* @media all and (orientation:portrait){
+    header{
+        background-color: yellow;
+        color: black;
+    }
+} */
+
+/* This is for the landscape:orientation and that is default for pc */
+/* @media all and (orientation:landscape){
+    header{
+        background-color: blueviolet;
+        color: black;
+    }
+} */
+
+/* This is for the portrait:orientation */
+/* @media print {
+    header{
+        background-color: blue;
+        color: rgb(238, 13, 13);
+    }
+}
+
+@media (min-width:600px){
+    header{
+        background-color:black;
+        color: white;
+    }
+}
+@media (max-width:400px){
+    header{
+        background-color: burlywood;
+        color: black;
+    }
+} */
+
+/* For Ipad */
+@media (min-width:800px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    nav ul li{
+        float: left;
+        width: 33.33%;
+    }
+    .products{
+        clear: both;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .product-box{
+        width: 49%;
+        margin: auto;
+        border: none;
+    }
+    
+}
+
+@media (min-width:1200px){
+    .products{
+        margin-top: 10px 0px;
+        display: flex;
+        text-align: center;
+    }
+    .product-box{
+        width: 22%;
+        margin: auto;
+    }
+}
+
+/* By the help of the below way we can do min and max in one part only */
+/* @media (min-width:400px) and (max-width:800px) {
+    header {
+        background-color: darkgreen;
+        color: rgb(1, 1, 1);
+    }
+} */

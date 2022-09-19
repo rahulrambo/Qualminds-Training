@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>The way to jump from one line to other line in a same web page</p>
+    <a href="#list">Click to jump to Ordered List</a>
+    <h1>Welcome to List Type</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nemo.</p>
+    <h2>Unordered Lists</h2>
+    <ul>
+        <li>Name</li>
+        <li>Address</li>
+        <li>Dept.</li>
+        <li>DOB</li>
+        <li>Hobby</li>
+    </ul>
+    <h2 id="list">Ordered List</h2>
+    <ol>
+        <li>Name</li>
+        <li>Address</li>
+        <li>Dept.</li>
+        <li>DOB</li>
+        <li>Hobby</li>
+    </ol>
+    <a href="http://www.google.com" target="_blank">Google Home Page</a>
+    <h3>Absolute URL</h3>
+    <a href="http://127.0.0.1:5500/Day1.html" target="_blank">Go to Day1 Web Page</a>
+    <p></p>
+    <a href="http://127.0.0.1:5500/HTML/Practicewebpage.html" target="_blank">Go to Practice Web Page</a>
+    <h3>Relative URL</h3>
+    <p><a href="Day1.html">Go to Day1 Web Page</a></p>
+    <a href="/HTML/Practicewebpage.html">Go to Practice Web Page</a>
+    <form action="">
+        <fieldset>
+            <legend>Hello bro, Good Morning</legend>
+            <p><label for="name">Enter your Name</label>
+                <input type="text" name="Name">
+            </p>
+            <p><label for="dept">Dept</label>
+                <input type="text" name="Dept">
+            </p>
+            <h3>Skills</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Skills" value="java" id="java">
+                    <label for="java">Java</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Skills" value="C#" id="c#">
+                    <label for="c#">C#</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Skills" value="sql" id="sql">
+                    <label for="sql">SQL</label>
+                </li>
+            </ul>
+            <h3>Gender</h3>
+            <ul>
+                <li>
+                    <input type="radio" name="Gender" value="male" id="male">
+                    <label for="skills">Male</label>
+                </li>
+                <li>
+                    <input type="radio" name="Gender" value="female" id="female">
+                    <label for="skills">Female</label>
+                </li>
+            </ul>
+        </fieldset>
+        <button>Submit Btn</button>
+        <button type="reset">Reset Btn</button>
+        <button type="button">Normal Btn</button>
+    </form>
+</body>
+
+</html>
