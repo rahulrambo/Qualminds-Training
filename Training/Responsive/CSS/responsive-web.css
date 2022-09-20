@@ -93,9 +93,9 @@ nav ul li a{
     }
     .line{
         width: 100px;
-        height: 3px;
+        height: 2px;
         background-color: rgb(148, 174, 120);
-        margin-top: -35px;
+        margin-top: -3px;
     }
     .head-content{
         margin-top: 30%;
