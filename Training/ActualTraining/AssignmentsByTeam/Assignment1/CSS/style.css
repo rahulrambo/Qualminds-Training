@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header{
+    background-image: url('/Images/bg1.jpg');
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+} */
+.nav{
+    position: absolute;
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: space-between; */
+}
+/* .studio,.navicon{
+    width: 50%;
+} */
+/* .studio{
+    padding:2% 3%;
+    color: white;
+} */
+/* .nav-icon{
+    padding:2% 3%;
+    color: whitesmoke;
+} */
+/* .header-content{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* align-items: center; */
+/* } */
+/* .header-content .work-hard p{
+    padding: 0.%;
+} */
