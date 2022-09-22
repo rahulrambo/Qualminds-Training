@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+header h2{
+    color: rgb(182, 148, 142);
+    font-size: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+nav ul{
+    margin-top: 2rem;
+    width: 100%;
+}
+nav ul li{
+    /* display: block; */
+    background-color: aliceblue;
+    text-align: center;
+    border-bottom: 1px solid rgb(203, 177, 177);
+    padding: 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.imgs{
+    height: 450px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 100%;
+    background-image: url('https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1928ac4fdeea5ee28a624ce0/firstdayofschoolbacktoschoolphotoideasphotographyhowtotakegreatpictures13.jpg');
+    background-size:120%;
+    background-position: -38px -135px;
+    background-repeat: no-repeat;
+}
+.imgs img{
+    width: 100%;
+    /* object-position: center;
+    object-fit:; */
+    /* height: auto; */
+    /* margin: 0px 15%; */
+    
+}
+.who-content{
+    text-align: center;
+}
+.who-content h1{
+    font-size: 35px;
+    width: 20rem;
+    margin: 10% 2% 0% 15%;
+    color: rgb(105, 128, 229);
+}
+.who-content p{
+    margin: 15% 0% 10% 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (min-width:800px){
+    nav ul{
+        width: 100%;
+        display: flex;
+    }
+    nav ul li{
+        width: 50%;
+        border: 1px solid rgb(118, 113, 113);
+    }
+    .who-said{
+        margin: 3% 0%;
+        width: 100%;
+        display: flex;
+    }
+    .who-content,.imgs{
+        width: 50%;
+    }
+}
