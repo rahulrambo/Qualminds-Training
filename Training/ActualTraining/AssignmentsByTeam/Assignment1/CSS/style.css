@@ -3,36 +3,178 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* header{
-    background-image: url('/Images/bg1.jpg');
-    background-size: cover;
-    height: 110vh;
-    width: 100%;
-} */
+.bg1{
+    position: relative;
+}
 .nav{
     position: absolute;
     display: flex;
-    /* width: 100%; */
-    /* justify-content: space-between; */
+    top: 0px;
+    padding: 2% 3%;
+    width: 100%;
+    justify-content: space-between;
 }
-/* .studio,.navicon{
+.studio,.navicon{
     width: 50%;
-} */
-/* .studio{
-    padding:2% 3%;
+}
+.studio{
+    padding-top:1%;
     color: white;
-} */
-/* .nav-icon{
-    padding:2% 3%;
+}
+.nav-icon{
+    padding-top: 1%;
     color: whitesmoke;
-} */
-/* .header-content{ */
-    /* display: flex; */
-    /* flex-direction: column; */
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
     /* justify-content: center; */
-    /* width: 100%; */
+    width: 100%;
     /* align-items: center; */
-/* } */
-/* .header-content .work-hard p{
-    padding: 0.%;
-} */
+}
+.header-content .work-hard p{
+    color: rgb(114, 107, 107);
+    font-size: 20px;
+    padding: 27% 0% 0% 16%;
+}
+.elegent{
+    padding: 4% 0% 0% 16%;
+    font-size: 2.3rem;
+    color: white;
+    font-weight: bold;
+}
+.pixels{
+    width: 80%;
+    height: auto;
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 120%;
+}
+.col{
+    width: 22%;
+    height: 350px;
+    border: 1px solid rgb(248, 216, 216);
+    text-align: center;
+    background-color: white;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(213, 78, 78);
+    padding: 25px;
+    margin: 10% 0% 10% 36%;
+}
+.pixel{
+    text-align: center;
+    width: 100%;
+}
+.pixel h3{
+    padding: 15px;
+}
+.pixel p{
+    width: 75%;
+    margin-left: 15%;
+}
+.easy-way{
+    margin-top: 20%;
+    display: flex;
+    /* background-color: #F0F0F0; */
+}
+.img1{
+    width: 50%;
+}
+.img1 img{
+    width: 100%;
+}
+.easy-ways{
+    width: 50%;
+    background-color: #F0F0F0;
+}
+.smart{
+    height: 70%;
+    padding: 10%;
+}
+.easy p{
+    padding-bottom:15px;
+}
+.easy h3{
+    padding: 10px 0px;
+}
+.lelit{
+    padding: 25px 0px;
+    width:90%;
+}
+.creative-clean{
+    width: 100%;
+    display: flex;
+}
+.creative,.clean{
+    padding: 4% 0% 0% 10%;
+    width: 100%;
+}
+.unique{
+    width: 100%;
+    display: flex;
+}
+.unique-digital{
+    display: flex;
+    width: 50%;
+}
+.img2{
+    width: 50%;
+}
+.young{
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+.img2 img{
+    width: 100%;
+}
+.unique-digit{
+    padding:1em 1.5em 1em;
+}
+.young h3{
+    padding: 0em 1.4em 0.5em;
+    /* width: 80%; */
+}
+.lorem{
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+.a-tag{
+    padding-top:1em;
+}
+.a-tag a{
+    text-decoration: none;
+}
+.find-more{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+.find-more h3{
+    padding-top: 3%;
+}
+.img-section{
+    width: 80%;
+    height: auto;
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgs{
+    width: 23.5%;
+    margin-top:1em;;
+}
+.imgs img{
+    width: 100%;
+    height: 170px;
+}
+
