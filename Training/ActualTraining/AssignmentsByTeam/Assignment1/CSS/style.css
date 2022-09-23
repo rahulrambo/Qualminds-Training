@@ -18,24 +18,24 @@
     width: 50%;
 }
 .studio{
-    padding-top:1%;
+    padding-top:2%;
     color: white;
+    font-size: 1.5em;
 }
 .nav-icon{
     padding-top: 1%;
     color: whitesmoke;
+    font-size:2em;
 }
 .header-content{
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 0px;
-    /* justify-content: center; */
     width: 100%;
-    /* align-items: center; */
 }
 .header-content .work-hard p{
-    color: rgb(114, 107, 107);
+    color: rgb(216, 149, 149);
     font-size: 20px;
     padding: 27% 0% 0% 16%;
 }
@@ -80,6 +80,7 @@
 .pixel p{
     width: 75%;
     margin-left: 15%;
+    color: rgb(142, 145, 134);
 }
 .easy-way{
     margin-top: 20%;
@@ -102,6 +103,7 @@
 }
 .easy p{
     padding-bottom:15px;
+    color: rgb(142, 145, 134);
 }
 .easy h3{
     padding: 10px 0px;
@@ -115,8 +117,11 @@
     display: flex;
 }
 .creative,.clean{
-    padding: 4% 0% 0% 10%;
+    padding: 1% 0% 0% 10%;
     width: 100%;
+}
+.creative h4,.clean h4{
+    padding: 2% 0px;
 }
 .unique{
     width: 100%;
@@ -133,16 +138,18 @@
     width: 50%;
     background-color: black;
     color: white;
+    height: 98.5%;
 }
 .img2 img{
     width: 100%;
+    height: auto;
 }
 .unique-digit{
     padding:1em 1.5em 1em;
+    color: rgb(142, 145, 134);
 }
 .young h3{
     padding: 0em 1.4em 0.5em;
-    /* width: 80%; */
 }
 .lorem{
     padding: 0.5em 1.5em 0.5em 1.5em;
@@ -151,15 +158,19 @@
     padding-top:1em;
 }
 .a-tag a{
+    color: rgb(142, 145, 134);
     text-decoration: none;
 }
 .find-more{
     width: 100%;
     text-align: center;
-    padding: 5%;
+    padding:3% 5%;
+}
+.find-more p{
+    color: rgb(142, 145, 134);
 }
 .find-more h3{
-    padding-top: 3%;
+    padding-top: 2%;
 }
 .img-section{
     width: 80%;
@@ -175,6 +186,178 @@
 }
 .imgs img{
     width: 100%;
-    height: 170px;
+    height: auto;
+}
+.values-features{
+    width: 80%;
+    margin:7% 10%;
+    display: flex;
+}
+.values{
+    width: 50%;
+    padding: 5% 0%;
+}
+.values p{
+    padding-top:4em;
+    color: rgb(142, 145, 134);
+}
+.values h3{
+    padding-bottom: 4%;
+}
+li{
+    margin-left: 3%;
+    padding: 0.3em;
+}
+.new-product-img{
+    width: 50%;
+}
+.new-product-img img{
+    width: 100%;
+    height: auto;
+}
+.awesome-skilled{
+    background-color:rgb(212,212,210);
+    position: relative;
+    width: 100%;
+    /* height: 680px; */
+    height: 42.6em;
+}
+.awesome-designers{
+    width: 100%;
+}
+.design-brand{
+    padding: 6% 10%;
+    width: 100%;
+}
+.design-brand P{
+    padding:2% 0%;
+    color: rgb(142, 145, 134);
+}
+.design-brand h3{
+    width:10em;
+}
+.awesome-img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.best-responsibility{
+    padding: 2% 10%;
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.best-quality{
+    width: 50%;
+    padding:18% 1% 10% 0%;
+}
+.best-quality h4{
+    padding-bottom: 5%;
+}
+.responsibility{
+    padding-left: 3%;
+}
+.our-products{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our-products-content{
+    position: absolute;
+    color: white;
+    border: 1px solid rgb(164, 150, 150);
+    text-align: center;
+    padding: 3%;
+    width: 45%;
+    height: 30%;
+}
+.we-value p{
+    padding: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(142, 145, 134);
+}
+.we-value h1{
+    font-size: 28px;
+    width: 75%;
+    display: inline-block;
+    padding: 5px;
+}
+.contact-map{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    background-color: black;
+}
+.contact-us{
+    width: 50%;
+    color: white;
+    padding: 10%;
+}
+.contact-us h2{
+    padding:5% 0px;
+}
+.contact-us p{
+    padding: 2% 0px;
+}
+.maps{
+    width: 50%;
+    padding: 5% 0% 5% 10%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(61, 57, 61);
+    color: whitesmoke;
+    height: 25vh;
+}
+.foot{
+    width: 33%;
+}
+.foot p{
+    padding: 2%;
 }
 
+@media (min-width:1400px){
+    .awesome-skilled{
+        width: 100%;
+        height: 99vh;
+    }
+    .icon{
+        margin: 10% 0% 10% 40%;
+    }
+    .lelit p{
+        width: 75%;
+    }
+    .creative p,.clean p{
+        width: 80%;
+    }
+    .unique-digit{
+        padding: 10% 0px 3% 5%;
+    }
+    .young h3{
+        width: 60%;
+    }
+    .lorem{
+        padding: 5%;
+        width: 75%;
+    }
+    .a-tag{
+        padding-top: 2em;
+    }
+    .best-responsibility{
+        padding: 7% 10%;
+    }
+    .contact-us{
+        padding: 10% 10% 10% 13%;
+    }
+    .maps{
+        padding: 5% 0% 5% 20%;
+    }
+}
