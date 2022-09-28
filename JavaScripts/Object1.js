@@ -45,12 +45,3 @@ console.log(employee['key']);//It will search key object in the Employee and pri
 console.log(employee[key]);//it will print as Name which is mentioned in object
 employee.welcome();
 employee._welcome();
-
-
-
-
-
-
-
-
-
