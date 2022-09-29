@@ -172,9 +172,3 @@ var _a=a.reduce(function(_a,element){
     return _a+element;
 })
 console.log(_a);
-
-
-
-
-
-

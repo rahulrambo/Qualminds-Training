@@ -15,7 +15,9 @@ let text2="Rahul";
 let text3=text1.concat(" "+text2);
 document.getElementById("d3").innerHTML=text3; 
 document.getElementById("d3").innerHTML=text3.length;
-
+let x=5,y=10;
+let z=x+y;
+document.getElementById("d4").innerHTML="The sum of 5 and 10 is "+z;
 var employee={
     name:"Rahul",
     name1:"Rambo",
@@ -43,5 +45,4 @@ console.log(typeof employee.gender);
 var key='name';
 console.log(employee['key']);//It will search key object in the Employee and print key
 console.log(employee[key]);//it will print as Name which is mentioned in object
-employee.welcome();
 employee._welcome();

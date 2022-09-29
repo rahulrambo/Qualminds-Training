@@ -100,7 +100,7 @@
 }
 .smart{
     height: 70%;
-    padding: 10%;
+    padding:4% 10%;
 }
 .easy p{
     padding-bottom:15px;
@@ -149,14 +149,14 @@
     height: auto;
 }
 .unique-digit{
-    padding:1em 1.5em 1em;
+    padding:0.5em 1.5em 0.5em 1.5em;
    color:#b5495d;
 }
 .young h3{
     padding: 0em 1.4em 0.5em;
 }
 .lorem{
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0em 1.5em 0.5em 1.5em;
     color: #3b3535;
     font-style: italic;
 }
@@ -247,21 +247,22 @@ li{
     right: 0;
 }
 .best-responsibility{
-    padding: 2% 10%;
+    padding: 2% 5% 2% 10%;
     width: 50%;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
 }
 .best-quality{
-    width: 50%;
-    padding:18% 1% 10% 0%;
+    width: 49.5%;
+    padding:12% 1% 10% 0%;
 }
 .best-quality h4{
     padding-bottom: 5%;
 }
 .responsibility{
-    padding-left: 3%;
+    padding-left: 5%;
+    width: 50.5%;
 }
 .our-products{
     position: relative;
