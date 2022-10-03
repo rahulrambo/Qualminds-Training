@@ -30,6 +30,9 @@
     color: whitesmoke;
     font-size:2em;
 }
+.nav-icon a{
+    color: white;
+}
 .header-content{
     display: flex;
     flex-direction: column;
@@ -60,7 +63,7 @@
 }
 .col{
     width: 22%;
-    height: 340px;
+    height: 20em;
     border: 1px solid rgb(240, 240, 240);
     text-align: center;
     background-color: white;
@@ -158,6 +161,7 @@
 .unique-digital{
     display: flex;
     width: 50%;
+    height: 100%;
 }
 .img2{
     width: 50%;
@@ -166,16 +170,16 @@
     width: 50%;
     background-color: black;
     color: white;
-    height: 98.5%;
+    height: auto;
 }
 .img2 img{
     width: 100%;
-    height: auto;
+    height:100%;
 }
 .unique-digit{
-    padding:1em 1.5em 0.2em 1.5em;
-   color:crimson;
-   font-weight: 600;
+    padding:1em 1.5em 0.4em 1.5em;
+    color:crimson;
+    font-weight: 600;
 }
 .young h3{
     padding: 0em 1.4em 0.5em;
@@ -231,13 +235,13 @@
     width: 50%;
     padding: 5% 0%;
 }
-.values p{
-    padding-top:4em;
+.values .value p{
+    padding:4em 0px 1em 0px;
     color: crimson;
     font-weight: bold;
     font-size: 18px;
 }
-.values h3{
+.value-header h3{
     padding-bottom: 4%;
     font-size: 24px;
 }
@@ -318,16 +322,16 @@ li{
 }
 .our-products img{
     width:100%;
-    height:600px;
+    height:650px;
+    object-fit: cover;
 }
 .our-products-content{
     position: absolute;
     color: white;
     border: 1px solid rgb(164, 150, 150);
     text-align: center;
-    padding: 3%;
+    padding: 2% 1% 3% 3%;
     width: 70%;
-    height: 60%;
 }
 .we-value p{
     padding: 5%;
@@ -388,7 +392,7 @@ footer{
     padding: 2%;
 }
 
-@media (min-width:1400px){
+@media (min-width:1920px){
     .easy-way{
         margin-top: 16%;
     }
@@ -406,19 +410,19 @@ footer{
         width: 75%;
     }
     .img1 img{
-        height: 75vh;
+        height: 100vh;
     }
     .creative-clean{
         margin-top: 1%;
+    }
+    .creative,.clean{
+        padding-top: 15%;
     }
     .creative p,.clean p{
         width: 80%;
     }
     .unique-digit{
         padding: 10% 0px 3% 5%;
-    }
-    .young{
-        height: 98.8%;
     }
     .young h3{
         width: 60%;
@@ -435,6 +439,9 @@ footer{
     }
     .our-products img{
         height: 750px;
+    }
+    .our-products-content{
+        width: 60%;
     }
     .we-value h1{
         width: 65%;
