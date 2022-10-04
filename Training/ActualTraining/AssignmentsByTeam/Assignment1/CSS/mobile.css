@@ -1,5 +1,5 @@
 @media (max-width:500px){
-    .header-content,.col,.pixels,.easy-way,.img1,.easy-ways,.unique,.unique-digital,.img2,.young,.find-more,.img-section,.imgs,.values-features,.values,.new-product-img,.awesome-skilled,.awesome-designers,.awesome-img,.best-responsibility,.contact-us,.contact-map,.maps{
+    .header-content,.col,.pixels,.easy-way,.img1,.easy-ways,.unique,.unique-digital,.img2,.young,.find-more,.img-section,.imgs,.values-features,.values,.new-product-img,.awesome-skilled,.awesome-designers,.awesome-img,.best-responsibility,.contact-us,.contact-map,.maps,.awesome-img img{
         width: 100%;
     }
     .unique,.unique-digital,.easy-way,.img-section,.values-features,.awesome-skilled,.contact-map,footer,.foot{
@@ -16,9 +16,17 @@
         font-size: 16px;
     }
     .pixels{
-        top: 33%;
-        margin-left: 0px;
-        display: none;
+        top: 45%;
+        margin-left:2px; 
+    }
+    .img1{
+        margin-top: 338%;
+    }
+    .col{
+        margin-top: 10%;
+    }
+    .icon{
+        margin-left: 42%;
     }
     .find-more{
         padding: 15%;
@@ -26,14 +34,27 @@
     .img-section,li{
         margin: 0px;
     }
+    .values-features{
+        margin-left: 4%;
+    }
+    .li{
+        margin-left: 1%;
+    }
     .new-product-img{
         margin-left: -5%;
     }
     .awesome-img{
-        display: none;
+        position: absolute;
+        top: 72%;
+    }
+    .our-products{
+        margin-top: 55%;
     }
     .we-value h1{
         font-size: 25px;
+    }
+    .contact-us{
+        text-align: center;
     }
     .maps{
         padding-left: 5px;
